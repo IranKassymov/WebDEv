@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.form_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_div form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.instaLogo {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.input {
+    width: 90%;
+    padding: .6rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 3px;
+}
+
+.login_button {
+    width: 90%;
+    padding: .4rem;
+    font-weight: 700;
+    background-color: rgb(1, 183, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+}
+
+.or {
+    margin: 20px 0;
+}
+
+
+
+.fb_login {
+    font-weight: 700;
+    font-size: 95%;
+    color: rgb(85, 0, 255);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.signup {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 10px;
+}
+
+.get_app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.play {
+    width: 190px;    
+    border-radius: 8px;
+}
+
+.apple {
+    width: 190px;
+    border-radius: 8px;
+}
