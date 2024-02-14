@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+#taskInput {
+  width: 200px;
+  margin-bottom: 10px;
+}
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+.taskItem {
+  margin-bottom: 5px;
+}
+.deleteButton {
+  margin-left: 5px;
+  cursor: pointer;
+}
+ 
