@@ -1,0 +1,25 @@
+<div class="container">
+    <h2 class="title">Products</h2>
+    <div *ngFor="let product of products" class="product-container">
+        <img src="{{product.img}}" alt="product image">
+        <h3 class="product-title">
+            <a [title]="product.name + ' details'">
+                <a (click)="share_kaspi(product.link)">{{product.name}}</a>
+            </a>
+        </h3>
+        <p *ngIf="product.price" class="price">
+            Price: {{product.price}} ₸
+        </p>
+        <p *ngIf="product.rating">
+      {{product.rating}}
+    </p>
+      <p *ngIf="product.description" >
+        {{product.description}}
+      </p>
+        <button type="button" class="share-btn" (click)="share(product.link)">Share on Telegram</button>
+
+        <button type="button" class="share-btn-whatsapp" (click)="share_whatsapp(product.link)">Share on WhatsApp</button>
+
+        
+    </div>
+</div>

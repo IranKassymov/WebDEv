@@ -1,0 +1,16 @@
+<div class="content">
+    <h2>Product Details</h2>
+
+    <div class="main">
+        <div class="product-details" *ngIf="product">
+            <div class="characteristics">
+                <h3><a href = "{{ product.link }}">{{product.name}}</a></h3>
+                <p>Rating: {{product.rating}} </p>
+                <h4>Price: {{product.price}} ₸</h4>
+                <p>{{product.description}}</p>
+                <button type="button" (click)="addToCart(product)">Buy</button>
+            </div>
+            <img src="{{product.img}}" alt="product photo">
+        </div>
+    </div>
+</div>
